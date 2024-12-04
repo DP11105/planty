@@ -1,0 +1,14 @@
+[29-Nov-2024 21:18:51 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\planty\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[29-Nov-2024 21:18:53 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\planty\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[29-Nov-2024 21:22:56 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\xampp\htdocs\planty\wp-content\themes\tm-beans\lib\api\compiler\vendors\lessc.php on line 719
+[03-Dec-2024 21:56:41 UTC] Automatic updates starting...
+[03-Dec-2024 21:56:42 UTC] Automatic updates complete.
+[03-Dec-2024 21:56:50 UTC] PHP Deprecated:  La fonction wp_update_https_detection_errors est <strong>obsolète</strong> depuis la version 6.4.0, aucune alternative n’est disponible. in C:\xampp\htdocs\planty\wp-includes\functions.php on line 6114
+[04-Dec-2024 02:24:07 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\planty\wp-includes\theme.php on line 1964
+[04-Dec-2024 02:35:09 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\planty\wp-includes\theme.php on line 1964
+[04-Dec-2024 02:35:35 UTC] PHP Warning:  file_get_contents(C:\xampp\htdocs\planty/wp-content/plugins/ocean-extra/ocean-extra.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\planty\wp-includes\functions.php on line 6893
+[04-Dec-2024 02:38:13 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\planty\wp-includes\theme.php on line 1964
+[04-Dec-2024 02:38:59 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\planty\wp-includes\theme.php on line 1964
+[04-Dec-2024 02:40:08 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\planty\wp-includes\theme.php on line 1964
+[04-Dec-2024 06:29:39 UTC] Automatic updates starting...
+[04-Dec-2024 06:29:40 UTC] Automatic updates complete.
