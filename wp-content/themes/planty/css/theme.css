@@ -57,14 +57,15 @@ div#site-logo-inner.clr {
     text-align: center;
 }
 
-
+/* Code pour la modification du hero header */
 
 .hero-header {
     background-color: #ECE2DA;
 }
 
 #content-wrap.container.clr {
-    padding: 0px;
+    padding: 0px;   
+    
 }
 
 .hero-header >div {
@@ -78,3 +79,26 @@ div#site-logo-inner.clr {
     font-size: 40px;
     font-weight: 800;
 }
+
+.image-c {
+    position: relative;
+    z-index: 3;
+
+}
+.image-a {
+  position: absolute;
+  z-index: 1;
+  right: 350px;
+  left:0px ;
+  top: 250px;
+  
+  }
+
+.image-b {
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    right: 260px;
+   
+}
+
