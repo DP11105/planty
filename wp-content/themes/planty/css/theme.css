@@ -1,0 +1,80 @@
+/* Code pour la moification du header */
+
+#site-header.minimal-header.clr {
+    background-color: white;
+}
+
+div#site-logo-inner.clr {
+    padding: 15px 0px;
+    margin: 0px 10px ;
+}
+
+.custom-logon {
+    margin: 0px 10px;
+}
+
+.text-wrap {
+    color : black;
+    font-size: 17px;
+    font-family: 'Syne', sans-serif;
+}
+
+.text-wrap:hover {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#menu-item-17.menu-item-type-post_type{
+    padding : 7px 0px;
+}
+
+#menu-item-18.menu-item-type-post_type{
+    background-color: #DC9F96;
+    padding : 7px 50px;
+}
+
+#menu-item-18.menu-item-type-post_type:hover{
+    background-color: #C02E44;
+    font-style: normal;
+}
+
+#menu-item-18.menu-item-type-post_type .menu-link .text-wrap{
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-style: normal;
+}
+
+
+/* Code pour la modification du footer */
+
+.menu-footer-container a {
+    font-family: 'Syne';
+    font-size: 18px ;
+}
+
+.footer-bottom.clr {
+    text-align: center;
+}
+
+
+
+.hero-header {
+    background-color: #ECE2DA;
+}
+
+#content-wrap.container.clr {
+    padding: 0px;
+}
+
+.hero-header >div {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.accueil-titre {
+    color: #3D9448;
+    font-family: 'Syne';
+    font-size: 40px;
+    font-weight: 800;
+}
