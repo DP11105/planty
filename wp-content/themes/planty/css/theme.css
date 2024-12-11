@@ -61,12 +61,12 @@ div#site-logo-inner.clr {
 
 .hero-header {
     background-color: #ECE2DA;
+    border-bottom-left-radius: 50% 75px;
+    border-bottom-right-radius: 50% 75px;
 }
 
-#content-wrap.container.clr {
-    padding: 0px;   
     
-}
+
 
 .hero-header >div {
     max-width: 1200px;
@@ -100,5 +100,54 @@ div#site-logo-inner.clr {
     top: 250px;
     right: 260px;
    
+}
+
+.section-2 {
+    text-align: center;
+}
+
+.titre-2 {
+    margin-top: 50px;
+    color: #3D9448;
+    font-family: 'Syne';
+    font-size: 28px;
+}
+
+.para-2 {
+    margin-top: 20px;
+    font-family: 'Syne';
+    font-size: 20px;
+    color: black;
+    line-height: 0.3;
+}
+
+.s3 {
+    background-color: #ECE2DA;
+    margin-top: 75px;
+}
+
+.titre-3 {
+    font-family: 'Syne';
+    font-size: 30px;
+    color: #D2776A;
+    font-weight: 800;
+}
+
+.galerie-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    max-width: 1200px;
+    
+    
+
+}
+
+.img {
+    flex: 0 0 calc(50% - 10px);
+    
+    
+    
 }
 
