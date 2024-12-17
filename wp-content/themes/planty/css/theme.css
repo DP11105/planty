@@ -120,7 +120,6 @@ div#site-logo-inner.clr {
 }
 
 .para-2 {
-    margin-top: 20px;
     font-family: 'Syne';
     font-size: 20px;
     color: black;
@@ -142,19 +141,24 @@ div#site-logo-inner.clr {
 }
 
 .galerie-1 {
-    gap: 20px;
+    gap: 30px;
     margin-top: 100px;
     display: flex;
     max-width: 1200px;
     justify-content: center;
+    margin: 0px auto;
    
 }
 
 .img {
     max-height: 40px;
     max-width :400px;
+    object-fit: contain;
 }
 
+.wp-block-cover__image-background{
+    object-fit: contain;
+}
 
 
 
@@ -164,11 +168,11 @@ div#site-logo-inner.clr {
 
 .img-p {
     font-family: 'Syne';
-    line-height: 0.5;
+    line-height: 0.8;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
-    padding: 50px 100px;
+    
 }
 
 .is-style-fill {
@@ -177,8 +181,12 @@ div#site-logo-inner.clr {
 }
 
 .wp-block-button__link {
-    padding: 20px 50px;
+    padding: 15px 60px;
     margin: 50px 0px;
+}
+
+.wp-block-button__link:hover {
+    background-color: #C02E44;
 }
 
 .titre-4 {
@@ -191,9 +199,7 @@ div#site-logo-inner.clr {
     margin-bottom: 75px ;
 }
 
-.article-img {
-    margin: 0px ;
-}
+
 
 
 .article-1 {
@@ -201,6 +207,7 @@ div#site-logo-inner.clr {
     color: #3B8E46;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom:10px ;
     
 }
 
@@ -209,6 +216,8 @@ div#site-logo-inner.clr {
     color: black;
     font-size: 16px;
    line-height:1.2 ;
+   max-width: 350px;
+   
 }
 
 /* Code css pour la page "Nous rencontrer" */
@@ -222,20 +231,22 @@ div#site-logo-inner.clr {
 }
 
 .feuille {
-    margin-top: 0px;
-    margin-left: 00px;
+    position: absolute;
+    margin-left: 100px;
+    margin-bottom: 300px;
+
     
 }
 
 .feuill {
-    margin-right: 125px;
-    margin-top: 75px;
+    margin-right: 100px;
+    margin-top: 80px;
     position: absolute;
-    margin-left: 75px;
+    margin-left: 125px;
 }
 
 .nous-ren-sec {
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 .nous-titre {
@@ -243,8 +254,8 @@ div#site-logo-inner.clr {
     font-size: 38px;
     color: #D2776A;
     font-weight: 800;
+    margin-bottom: 30px;
     margin-top: 150px;
-    margin-left: 100px;
     
 }
 
@@ -252,10 +263,8 @@ div#site-logo-inner.clr {
     font-family: 'Syne';
     font-size: 20px;
     color: black;
-    width: 680px;
-    margin-left: 182px;
-    margin-bottom: 100px;
-    line-height: 1.2;
+    line-height: 0.2;
+    text-align: center;
 }
 
 .nous-ren-col{
@@ -270,6 +279,7 @@ div#site-logo-inner.clr {
     font-weight: 700;
     text-align: center;
     color: black;
+    margin-top: 30px;
 }
 
 .article-titre2 {
@@ -286,4 +296,10 @@ div#site-logo-inner.clr {
     font-size: 20px;
     text-align: center;
     line-height: 0.8;
+}
+
+
+
+#main #content-wrap {
+    padding-top: 0px!important;
 }
