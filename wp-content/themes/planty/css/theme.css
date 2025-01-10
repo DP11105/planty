@@ -16,26 +16,30 @@ div#site-logo-inner.clr {
 
 .text-wrap {
     color : black;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Syne', sans-serif;
 }
 
-.text-wrap:hover {
-    font-style: italic;
-    font-weight: 700;
-    font-size: 14px;
-}
 
-#menu-item-17.menu-item-type-post_type{
+
+#menu-item-17.menu-item-type-post_type {
     padding : 7px 0px;
 }
 
-#menu-item-18.menu-item-type-post_type{
-    background-color: #DC9F96;
-    padding : 7px 50px;
+#menu-item-17.menu-item-type-post_type .text-wrap:hover {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.6px;
+    margin-bottom: 100px!important;
 }
 
-#menu-item-18.menu-item-type-post_type:hover{
+#menu-item-18.menu-item-type-post_type .menu-link{
+    background-color: #DC9F96;
+    padding : 7px 75px;
+}
+
+#menu-item-18.menu-item-type-post_type .menu-link:hover{
     background-color: #C02E44;
     font-style: normal;
 }
@@ -43,7 +47,8 @@ div#site-logo-inner.clr {
 #menu-item-18.menu-item-type-post_type .menu-link .text-wrap{
     color: white;
     font-family: 'Syne', sans-serif;
-    font-style: normal;
+    font-style: normal!important;
+    font-weight: 700;
 }
 
 
@@ -58,9 +63,14 @@ div#site-logo-inner.clr {
     justify-content: center;
 }
 
-.footer-bottom.clr {
+.container.clr {
     display: flex;
     justify-content: center;
+    padding: 0px!important;
+}
+
+.oceanwp-row {
+    padding: 0px!important;
 }
 
 /* Code pour la modification du hero header */
@@ -94,17 +104,17 @@ div#site-logo-inner.clr {
 .image-a {
   position: absolute;
   z-index: 1;
-  right: 350px;
-  left:0px ;
-  top: 250px;
+  right: 550px;
+  left:145px ;
+  top: 350px;
   
   }
 
 .image-b {
     position: absolute;
     z-index: 2;
-    top: 250px;
-    right: 260px;
+    top: 350px;
+    right: 255px;
    
 }
 
@@ -113,10 +123,12 @@ div#site-logo-inner.clr {
 }
 
 .titre-2 {
-    margin-top: 50px;
+    margin-top: 70px;
     color: #3D9448;
     font-family: 'Syne';
-    font-size: 28px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
 
 .para-2 {
@@ -152,8 +164,8 @@ div#site-logo-inner.clr {
 
 .img {
     max-height: 40px;
-    max-width :400px;
-    object-fit: contain;
+    max-width :393px;
+    object-fit: cover;
 }
 
 .wp-block-cover__image-background{
@@ -180,13 +192,14 @@ div#site-logo-inner.clr {
     
 }
 
+
 .wp-block-button__link {
     padding: 15px 60px;
     margin: 50px 0px;
 }
 
 .wp-block-button__link:hover {
-    background-color: #C02E44;
+   background-color: #C02E44!important;
 }
 
 .titre-4 {
@@ -216,7 +229,7 @@ div#site-logo-inner.clr {
     color: black;
     font-size: 16px;
    line-height:1.2 ;
-   max-width: 350px;
+   max-width: 330px;
    
 }
 
@@ -230,10 +243,10 @@ div#site-logo-inner.clr {
     border-bottom-right-radius: 50% 100px ;
 }
 
-.feuille {
-    position: absolute;
+.wp-image-33 {
+    
     margin-left: 100px;
-    margin-bottom: 300px;
+   
 
     
 }
@@ -243,6 +256,7 @@ div#site-logo-inner.clr {
     margin-top: 80px;
     position: absolute;
     margin-left: 125px;
+    max-width: 1400px;
 }
 
 .nous-ren-sec {
@@ -268,9 +282,12 @@ div#site-logo-inner.clr {
 }
 
 .nous-ren-col{
-    max-width: 1300px;
+    max-width: 1400px;
     display: flex;
     justify-content: center;
+    margin-bottom: 70px;
+    position: relative;
+    z-index: 2;
 }
 
 .nous-ren-titre2 {
@@ -280,6 +297,14 @@ div#site-logo-inner.clr {
     text-align: center;
     color: black;
     margin-top: 30px;
+}
+
+.nous-feuille {
+    z-index: 1;
+    position:absolute;
+    margin-right: 250px;
+    margin-left: 100px;
+   
 }
 
 .article-titre2 {
@@ -298,8 +323,187 @@ div#site-logo-inner.clr {
     line-height: 0.8;
 }
 
+.wpforms-field-small{
+    max-width: 100%!important;
+    width: 383px!important;
+    height: 71px!important;
+}
 
+.wpforms-field-large{
+    max-width: 100%!important;
+    width: 383px!important;
+    height: 237px!important;
+}
 
 #main #content-wrap {
     padding-top: 0px!important;
 }
+
+.form {
+    background-color: #ECE2DA;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    margin-left: 100px;
+}
+
+.formm{
+    position: relative;
+    z-index: 1;
+}
+
+.form-titre {
+    margin-top: 60px;
+}
+
+.sub {
+    text-transform: none!important;
+    font-size: 15px!important;
+    font-weight: 400!important;
+    padding: 24px 70px 35px 70px!important;
+    letter-spacing: normal!important;
+    border: none!important;
+}
+
+.sub:hover {
+    background-color: black!important;
+}
+
+
+.wpforms-submit-container {
+   margin-left: 100px!important;
+}
+
+.form-img {
+    z-index: 1;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 495px;
+}
+
+.widg {
+    background-color: #ECE2DA;
+}
+
+.nous-ren-col {
+    background-image: url('../images/feuille.png');
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+    background-size: 190px auto;
+    background-position: bottom 0px right 0px;
+    
+}
+
+
+/* Code pour la page de commande */
+
+.commande-div {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.commande-titre {
+    margin-bottom: 50px;
+}
+
+.wp-block-group__inner-container .is-layout-constrained .wp-block-group-is-layout-constrained {
+    border-top: solid white 1px ;
+    border-bottom: solid white 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.is-style-wide {
+    width: 1200px!important;
+}
+
+.commande-img {
+    width: 192px;
+    height: 128px;
+}
+
+
+.commande-para {
+    line-height: 0.2;
+}
+
+input.wpcf7-form-control  {
+   color: red;
+}
+
+.form-commande {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.wpcf7-form-control .wpcf7-textarea {
+    width: 50%!important;
+}
+
+.wpcf7-form  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+
+
+.commande-form-titre {
+    color: white;
+    font-size: 20px;
+    
+}
+
+.colonne1{
+    width: 50%;
+    border-right: solid white 1px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+}
+
+.colonne2 {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-label {
+    background-color: white!important;
+    max-width: 400px!important
+}
+
+.wpcf7-validates-as-required{
+    background-color: white;
+}
+
+
+.formu-titre {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+
+
+.form-wrap {
+    display: flex;
+    gap : 20px
+}
+
+.grp-images {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
