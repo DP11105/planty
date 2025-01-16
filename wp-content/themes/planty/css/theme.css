@@ -20,6 +20,9 @@ div#site-logo-inner.clr {
     font-family: 'Syne', sans-serif;
 }
 
+.text-wrap:active {
+    border: none!important;
+}
 
 
 #menu-item-17.menu-item-type-post_type {
@@ -165,6 +168,7 @@ div#site-logo-inner.clr {
 .img {
     max-height: 40px;
     max-width :393px;
+    width: 393px;
     object-fit: cover;
 }
 
@@ -441,19 +445,6 @@ input.wpcf7-form-control  {
     justify-content: center;
 }
 
-.wpcf7-form-control .wpcf7-textarea {
-    width: 50%!important;
-}
-
-.wpcf7-form  {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 100px;
-}
-
-
 
 .commande-form-titre {
     color: white;
@@ -462,24 +453,34 @@ input.wpcf7-form-control  {
 }
 
 .colonne1{
-    width: 50%;
-    border-right: solid white 1px;
+    
+    width: 383px;
+    max-width:700px;
     display: flex;
-    justify-content: end;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-start;
+    
+    
+   
 }
 
 .colonne2 {
     
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
+    border-left: 1px solid white;
+    margin-left: 30px;
 }
 
 
 .form-label {
     background-color: white!important;
-    max-width: 400px!important
+    max-width: 400px!important;
+    width: 383px!important;
+    height: 75px!important;
+    border-radius: 7px!important;
+    margin-bottom: 0px!important;
 }
 
 .wpcf7-validates-as-required{
@@ -491,19 +492,285 @@ input.wpcf7-form-control  {
     color: white;
     font-size: 30px;
     font-weight: 700;
-    text-align: center;
     width: 100%;
 }
 
+.formu-titr {
+    font-size: 30px;
+    color: white;
+}
 
 .form-wrap {
     display: flex;
-    gap : 20px
+    gap : 20px;
+    width : 100%;
+    margin-top: 50px;
+    
 }
+
+.bg-green {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .grp-images {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+    
 }
 
+.wpcf7-number {
+    background-color : white!important;
+    text-align: center;
+}
+
+.numero {
+    text-align: center;
+    max-width: 39px!important;
+    height: 56px;
+    font-weight: 600;
+    margin-top: 15px;
+    border-radius: 0px!important;
+    margin-left: 75px;
+}
+
+.wpcf7-validates-as-number {
+    justify-content: center!important;
+}
+
+
+.titre_image {
+    border-top: 1px solid white;
+    padding-top: 40px;
+}
+
+
+.wpcf7-submit {
+    background-color: #E0B9B4!important;
+    border: none!important;
+    border-radius: 5px;
+    margin-left: 345px!important;
+    margin-top: 30px!important;
+    padding: 20px 50px!important;
+    text-transform: capitalize!important;
+    font-weight: 400!important;
+    font-size: 15px!important;
+    margin-bottom: 100px!important;
+    
+
+}
+
+.wpcf7-submit:hover {
+    background-color: #C02E44!important;
+}
+
+/* Responsive tablette */
+
+@media (min-width: 768px) and (max-width: 798px) {
+
+   
+    
+    .galerie-1 {
+        display: flex!important;
+        align-items: center!important;
+        flex-direction: column ;
+       
+        
+    }
+
+    .has-background-dim {
+        max-width: 400px!important;
+        width: 100%;
+    }
+
+    .image-a {
+        display: none;
+    }
+
+    .image-b {
+        display: none;
+    }
+
+    
+
+    .feuill {
+        display: none;
+    }
+
+    .formm {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-img{
+        display: none;
+    }
+
+    .colonnee{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+    }
+
+    .grp-images {
+        max-width: 768px!important;
+        margin-left: 30px;
+    }
+
+    .colonne1 {
+        width: 300px!important;
+        margin-left: 30px;
+    }
+
+    .form-label {
+        width: 300px!important;
+    }
+
+    .numero {
+        margin-right: 50px!important;
+    }
+
+    .wpcf7-submit {
+        margin-left: 280px!important;
+    }
+
+    .l {
+        margin-left: 30px;
+    }
+
+   
+   
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .custom-logo {
+        width: 200px!important;
+        margin-left: 10px;
+    }
+    
+    .accueil-titre {
+        font-size: 25px!important;
+        
+    }
+
+    .image-a{
+        display: none;
+    }
+
+    .image-b {
+        display: none;
+    }
+
+    .image-c {
+        display: none;
+    }
+
+    
+
+    .para-2 {
+        line-height: 1;
+    }
+
+    .img-p {
+        font-size: 25px!important;
+    }
+
+    .img {
+        max-width: 320px!important;
+    }
+
+    .titre-4 {
+        font-size: 25px!important;
+    }
+
+    .bas-de-page {
+        display: none;
+    }
+
+    .nous-titre {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    .feuill {
+        display: none;
+    }
+
+    .nous-para {
+        line-height: 0.8;
+        
+    }
+
+    .wpforms-submit-container {
+        margin: 0px 50px!important;
+    }
+
+    .wp-image-277 {
+        display: none;
+    }
+
+    .commande-titre {
+        font-size: 25px!important;
+    }
+
+    .titre_image {
+        max-width: 600px!important;
+    }
+
+    .wp-block-group__inner-container {
+        width: 320px!important;
+    }
+
+    .grp-images {
+        max-width: 320px!important;
+        padding: 0px;
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+    }
+
+    .colonne1 {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .colonne2 {
+        width: 100%;
+        margin-left: 30px;
+        padding-left: 0px;
+        border: none;
+    }
+
+    .form-wrap {
+        display: flex;
+        flex-direction: column;
+       }
+
+    .l{
+        font-size: 30px;
+        max-width: 320px!important;
+        text-align: center;
+    }
+
+    .form-label {
+        max-width: 250px!important;
+    }
+
+    .wpcf7-submit {
+        margin: 0px!important;
+        margin-top: 20px!important;
+        margin-left: 60px!important;
+    }
+
+    
+}
