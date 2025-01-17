@@ -167,8 +167,8 @@ div#site-logo-inner.clr {
 
 .img {
     max-height: 40px;
-    max-width :393px;
-    width: 393px;
+    max-width :393px!important;
+    width: 393px!important;
     object-fit: cover;
 }
 
@@ -177,10 +177,10 @@ div#site-logo-inner.clr {
 }
 
 
-
-.esp{
-    justify-content: end;
+.colonnnee {
+    margin-bottom: 75px;
 }
+
 
 .img-p {
     font-family: 'Syne';
@@ -370,9 +370,9 @@ div#site-logo-inner.clr {
     border: none!important;
 }
 
-.sub:hover {
-    background-color: black!important;
-}
+#wpforms-submit-197.wpforms-submit:hover {
+    background: #C02E44!important;
+   }
 
 
 .wpforms-submit-container {
@@ -646,7 +646,10 @@ input.wpcf7-form-control  {
         margin-left: 30px;
     }
 
-   
+    .img {
+        max-width: 400px!important;
+        width: 100%!important;
+    }
    
 }
 
@@ -772,5 +775,7 @@ input.wpcf7-form-control  {
         margin-left: 60px!important;
     }
 
-    
+    body {
+        overflow-x: hidden; 
+    }
 }
