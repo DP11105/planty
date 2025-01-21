@@ -8,15 +8,13 @@ function theme_enqueue_styles()
 }
 
 function ajouter_lien_personnalise_menu($items, $args) {
-    // Vérifier si le menu est celui que vous voulez cibler (exemple : "primary")
-    if ($args->theme_location === 'main') {
+
+    if ($args->theme_location === 'main_menu') {
         if (is_user_logged_in()) {
-            $items .= '<li class="menu-item menu-item-mon-compte"><a href="' . esc_url(site_url('/mon-compte')) . '">Mon Compte</a></li>';
-        } else {
-            $items .= '<li class="menu-item menu-item-se-connecter"><a href="' . esc_url(wp_login_url()) . '">Se connecter</a></li>';
+            $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="' . esc_url(site_url('/Accueil')) . '" class="menu-link admin">Admin</a></li>';
         }
     }
-
+    
     return $items;
 }
 add_filter('wp_nav_menu_items', 'ajouter_lien_personnalise_menu', 10, 2);
