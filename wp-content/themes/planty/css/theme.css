@@ -567,10 +567,7 @@ input.wpcf7-form-control  {
     
 }
 
-.l{
-    text-align: center;
 
-}
 
 .wpcf7-number {
     background-color : white!important;
@@ -629,6 +626,8 @@ input.wpcf7-form-control  {
     #site-header-inner.clr {
         max-width: 1024px!important;
     }
+
+  
 
    .article-1 {
     font-size: 30px;
@@ -775,6 +774,93 @@ input.wpcf7-form-control  {
 
     #site-header-inner.clr {
         max-width: 1024px!important;
+    }
+
+    div#site-logo-inner.clr {
+        padding: 7px 0px;
+        margin: 0px 7px ;
+    }
+    
+    .custom-logo {
+        margin: 0px 20px;
+    }
+    
+   
+    
+   
+    
+    .text-wrap {
+        color : black;
+        font-size: 15px;
+        font-family: 'Syne', sans-serif;
+    }
+    
+    .menu-link:active {
+        border: 0px !important;
+    }
+    
+    .menu-link:nth-child(2) {
+        order: 3!important;
+    }
+    
+    
+    #menu-item-17.menu-item-type-post_type .menu-link {
+        padding : 6px 8px;
+        
+    }
+    
+    .menu-link {
+        font-size: 15px!important;
+        color: black!important;
+    }
+    
+    .admin {
+        
+        padding: 5px 40px 0px 30px!important;
+       
+    }
+    
+    .admin:hover {
+        font-style: italic;
+        font-size: 13px!important;
+        font-weight: 700;
+    }
+    
+    
+    
+    #menu-item-17.menu-item-type-post_type .text-wrap:hover {
+        font-style: italic;
+        font-weight: 700;
+        font-size: 13px!important;
+        line-height: 15.6px;
+        margin-bottom: 100px!important;
+    }
+    
+    #menu-item-18.menu-item-type-post_type .menu-link{
+        background-color: #DC9F96;
+        padding : 7px 75px;
+        
+    }
+    
+    .menu-item-type-post_type:nth-child(2) {
+        order: 3;
+    }
+    
+    
+    #menu-item-18.menu-item-type-post_type .menu-link{
+        order: 3!important;
+    }
+    
+    #menu-item-18.menu-item-type-post_type .menu-link:hover{
+        background-color: #C02E44;
+        font-style: normal;
+    }
+    
+    #menu-item-18.menu-item-type-post_type .menu-link .text-wrap{
+        color: white;
+        font-family: 'Syne', sans-serif;
+        font-style: normal!important;
+        font-weight: 700;
     }
 
    .article-1 {
@@ -926,6 +1012,66 @@ input.wpcf7-form-control  {
         max-width: 768px!important;
     }
 
+    div#site-logo-inner.clr {
+        padding: 10px 0px;
+        margin: 0px 5px ;
+    }
+    
+    .custom-logo {
+        margin: 0px 15px;
+        max-width: 180px!important;
+    }
+    
+        
+    .text-wrap {
+        color : black;
+        font-size: 14px;
+        font-family: 'Syne', sans-serif;
+    }
+    
+   
+    
+    
+    #menu-item-17.menu-item-type-post_type .menu-link {
+        padding : 5px 8px;
+        
+    }
+    
+    .menu-link {
+        font-size: 14px!important;
+        color: black!important;
+    }
+    
+    .admin {
+        
+        padding: 5px 30px 0px 20px!important;
+       
+    }
+    
+    .admin:hover {
+        font-style: italic;
+        font-size: 13px!important;
+        font-weight: 700;
+    }
+    
+    
+    
+    #menu-item-17.menu-item-type-post_type .text-wrap:hover {
+        font-style: italic;
+        font-weight: 700;
+        font-size: 13px!important;
+        line-height: 15.6px;
+        margin-bottom: 100px!important;
+    }
+    
+    #menu-item-18.menu-item-type-post_type .menu-link{
+        background-color: #DC9F96;
+        padding : 5px 40px;
+        
+    }
+    
+   
+
    .article-1 {
     font-size: 30px;
    }
@@ -1062,9 +1208,64 @@ input.wpcf7-form-control  {
 /* Responsive smartphone */
 @media (min-width: 320px) and (max-width: 480px) {
 
+   
+
+    div#site-logo-inner.clr {
+        padding: 10px 0px;
+        margin: 0px 5px ;
+    }
+    
     .custom-logo {
-        max-width: 200px!important;
-        margin-left: 10px;
+        margin: 0px 10px;
+        max-width: 70px!important;
+    }
+    
+        
+    .text-wrap {
+        color : black;
+        font-size: 9px;
+        font-family: 'Syne', sans-serif;
+    }
+    
+   
+    
+    
+    #menu-item-17.menu-item-type-post_type .menu-link {
+        padding : 3px 5px;
+        
+    }
+    
+    .menu-link {
+        font-size: 9px!important;
+        color: black!important;
+    }
+    
+    .admin {
+        
+        padding: 3px 10px 0px 5px!important;
+       
+    }
+    
+    .admin:hover {
+        font-style: italic;
+        font-size: 11px!important;
+        font-weight: 700;
+    }
+    
+    
+    
+    #menu-item-17.menu-item-type-post_type .text-wrap:hover {
+        font-style: italic;
+        font-weight: 700;
+        font-size: 8px!important;
+        line-height: 15.6px;
+        margin-bottom: 100px!important;
+    }
+    
+    #menu-item-18.menu-item-type-post_type .menu-link{
+        background-color: #DC9F96;
+        padding : 5px 16px;
+        
     }
     
     .accueil-titre {
@@ -1231,8 +1432,62 @@ input.wpcf7-form-control  {
 @media (min-width: 481px) and (max-width: 631px) {
 
     .custom-logo {
-        max-width: 200px!important;
+        max-width: 110px!important;
         margin-left: 10px;
+    }
+
+    div#site-logo-inner.clr {
+        padding: 10px 0px;
+        margin: 0px 5px ;
+    }
+
+    
+        
+    .text-wrap {
+        color : black;
+        font-size: 12px;
+        font-family: 'Syne', sans-serif;
+    }
+    
+   
+    
+    
+    #menu-item-17.menu-item-type-post_type .menu-link {
+        padding : 5px 6px;
+        
+    }
+    
+    .menu-link {
+        font-size: 12px!important;
+        color: black!important;
+    }
+    
+    .admin {
+        
+        padding: 5px 20px 0px 10px!important;
+       
+    }
+    
+    .admin:hover {
+        font-style: italic;
+        font-size: 11px!important;
+        font-weight: 700;
+    }
+    
+    
+    
+    #menu-item-17.menu-item-type-post_type .text-wrap:hover {
+        font-style: italic;
+        font-weight: 700;
+        font-size: 11px!important;
+        line-height: 15.6px;
+        margin-bottom: 100px!important;
+    }
+    
+    #menu-item-18.menu-item-type-post_type .menu-link{
+        background-color: #DC9F96;
+        padding : 5px 30px;
+        
     }
     
     .accueil-titre {
