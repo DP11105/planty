@@ -322,3 +322,14 @@
 [27-Jan-2025 18:32:48 UTC]   Automatic theme updates starting...
 [27-Jan-2025 18:32:48 UTC]   Automatic theme updates complete.
 [27-Jan-2025 18:32:48 UTC] Automatic updates complete.
+[28-Jan-2025 06:29:57 UTC] Automatic updates starting...
+[28-Jan-2025 06:29:58 UTC]   Automatic plugin updates starting...
+[28-Jan-2025 06:29:58 UTC]   Automatic plugin updates complete.
+[28-Jan-2025 06:29:58 UTC]   Automatic theme updates starting...
+[28-Jan-2025 06:29:58 UTC]   Automatic theme updates complete.
+[28-Jan-2025 06:29:58 UTC] Automatic updates complete.
+[28-Jan-2025 11:29:35 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\planty\wp-includes\theme.php on line 1964
+[28-Jan-2025 11:29:54 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\planty\wp-includes\theme.php on line 1964
+[28-Jan-2025 11:29:59 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\planty\wp-includes\theme.php on line 1964
+[28-Jan-2025 11:31:25 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\planty\wp-includes\theme.php on line 1964
+[28-Jan-2025 11:31:53 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\planty\wp-includes\theme.php on line 1964

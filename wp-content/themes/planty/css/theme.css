@@ -1216,56 +1216,12 @@ input.wpcf7-form-control  {
     }
     
     .custom-logo {
-        margin: 0px 10px;
-        max-width: 70px!important;
+        margin: 0px 15px;
+        max-width: 200px!important;
     }
     
-        
-    .text-wrap {
-        color : black;
-        font-size: 9px;
-        font-family: 'Syne', sans-serif;
-    }
-    
-   
-    
-    
-    #menu-item-17.menu-item-type-post_type .menu-link {
-        padding : 3px 5px;
-        
-    }
-    
-    .menu-link {
-        font-size: 9px!important;
-        color: black!important;
-    }
-    
-    .admin {
-        
-        padding: 3px 10px 0px 5px!important;
-       
-    }
-    
-    .admin:hover {
-        font-style: italic;
-        font-size: 11px!important;
-        font-weight: 700;
-    }
-    
-    
-    
-    #menu-item-17.menu-item-type-post_type .text-wrap:hover {
-        font-style: italic;
-        font-weight: 700;
-        font-size: 8px!important;
-        line-height: 15.6px;
-        margin-bottom: 100px!important;
-    }
-    
-    #menu-item-18.menu-item-type-post_type .menu-link{
-        background-color: #DC9F96;
-        padding : 5px 16px;
-        
+     .fa-bars {
+        margin-right: 10px!important;
     }
     
     .accueil-titre {
